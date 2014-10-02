@@ -43,6 +43,16 @@ colors.
 For more details about configuring Xresources see the [Arch Linux wiki
 page](https://wiki.archlinux.org/index.php/Xresources)
 
+### PuTTY
+
+Download [putty/gotham.reg](putty/gotham.reg).
+
+Double clicking on it should ask for confirmation that you want to modify the
+registry.
+
+Start PuTTY, select "Gotham" from the "Saved Sessions" list and then click
+"Load" to load the colors.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
