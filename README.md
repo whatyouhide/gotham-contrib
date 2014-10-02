@@ -32,6 +32,16 @@ and select `Import...` from the `Color Presets...` menu. From there, select the
 theme file (`.itermcolors`) and it will be imported. Now set the colorscheme to
 `Gotham` (or `Gotham-stable`).
 
+### Xresources
+
+Copy the contents of [xresources/gotham](xresources/gotham) into your
+`~/.Xresources` config file.
+
+Then run `xrdb ~/.Xresources` to reload the config file and load the gotham
+colors.
+
+For more details about configuring Xresources see the [Arch Linux wiki
+page](https://wiki.archlinux.org/index.php/Xresources)
 
 ## Contributing
 
