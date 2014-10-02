@@ -43,6 +43,19 @@ colors.
 For more details about configuring Xresources see the [Arch Linux wiki
 page](https://wiki.archlinux.org/index.php/Xresources)
 
+### Termite
+
+Copy the contents of [termite/gotham](termite/gotham) to your Termite
+configuration file.
+
+```
+$ mkdir -p ~/.config/termite
+$ cd gotham-contrib
+$ cat termite/gotham >> ~/.config/termite/config
+```
+
+If Termite is running, do `CTRL + SHIFT + R` to reload the config file.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
