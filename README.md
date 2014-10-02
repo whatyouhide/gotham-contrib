@@ -13,7 +13,7 @@ Here's an iTerm only screenshot:
 
 [Download][zipped] the repository, unzip it and double-click on the
 `Gotham.itermcolors` file. iTerm will confirm the colorscheme has been
-installed.
+installed. If you're on iTerm ~2.0 (stable), use `Gotham-stable.itermcolors`.
 
 Now go into `Preferences > Profiles > Colors` and select `Gotham` from the
 `Color Presets...` menu.
