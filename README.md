@@ -43,6 +43,13 @@ colors.
 For more details about configuring Xresources see the [Arch Linux wiki
 page](https://wiki.archlinux.org/index.php/Xresources)
 
+### Terminator
+
+Make a backup of any existing session layouts and other options you may have
+and copy [terminator/gotham](terminator/gotham) to `~/.config/terminator/config`
+
+Restart terminator to load the gotham colors.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for

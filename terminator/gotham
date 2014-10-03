@@ -1,0 +1,34 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_fg_color = "#98d1ce"
+  title_inactive_fg_color = "#98d1ce"
+  borderless = True
+  title_receive_bg_color = "#33859d"
+  title_transmit_bg_color = "#093748"
+  title_receive_fg_color = "#98d1ce"
+  inactive_color_offset = 0.89
+  title_inactive_bg_color = "#062835"
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#0a0f14:#c33027:#26a98b:#edb54b:#195465:#4e5165:#33859d:#98d1ce:#10151b:#d26939:#081f2d:#245361:#093748:#888ba5:#599caa:#d3ebe9"
+    login_shell = True
+    use_system_font = False
+    background_darkness = 0.94
+    scrollback_lines = 5000
+    active_encodings = ANSI_X3.4-1968, UTF-8, ISO-8859-1
+    cursor_color = "#7b7b7b"
+    foreground_color = "#98d1ce"
+    background_image = None
+    font = Droid Sans Mono 7
+    background_color = "#0a0f14"
+    allow_bold = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
