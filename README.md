@@ -32,6 +32,17 @@ and select `Import...` from the `Color Presets...` menu. From there, select the
 theme file (`.itermcolors`) and it will be imported. Now set the colorscheme to
 `Gotham` (or `Gotham-stable`).
 
+### Terminal.app
+
+Download [terminal.app/Gotham.terminal](terminal.app/Gotham.terminal). Go into
+`Terminal.app > Preferences > Profiles` and on the bottom left of the window,
+click the little gear icon and click `Import...`; now select the file you
+downloaded. If you want to set the colorscheme as the default one, click the
+`Default` button on the right of the gear icon.
+
+**Note** this has been tested with OSX >= 10.9 only, but let me know if it works
+with previous versions too (just open an issue), thanks!
+
 ### Xresources
 
 Copy the contents of [xresources/gotham](xresources/gotham) into your
