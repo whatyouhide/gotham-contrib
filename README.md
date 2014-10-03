@@ -41,23 +41,42 @@ Then run `xrdb ~/.Xresources` to reload the config file and load the gotham
 colors.
 
 For more details about configuring Xresources see the [Arch Linux wiki
-page](https://wiki.archlinux.org/index.php/Xresources)
+page][xresources-arch-wiki].
 
 ### PuTTY
 
 Download [putty/gotham.reg](putty/gotham.reg).
 
-Double clicking on it should ask for confirmation that you want to modify the
+Double-clicking on it should ask for confirmation that you want to modify the
 registry.
 
 Start PuTTY, select "Gotham" from the "Saved Sessions" list and then click
 "Load" to load the colors.
 
+### Termite
+
+Copy the contents of [termite/gotham](termite/gotham) to your Termite
+configuration file.
+
+``` bash
+mkdir -p ~/.config/termite
+cd gotham-contrib
+cat termite/gotham >> ~/.config/termite/config
+```
+
+If Termite is running, do <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> to
+reload the config file.
+
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
-other editors/terminal emulators, suggestions. If something is wrong, you can
+other editors/terminal emulators, suggestions.  If something is wrong, you can
 help even by just opening an issue.
+
+When you make a PR with support for a new platform (terminal emulator, editor,
+whatever) attach a screenshot of the colorscheme in the new platform so it's
+easier for me to merge right away!
 
 **Note** if you want to tweak the colors and open a PR, make sure to open in
 **in [vim's repository][vim-gotham]** and not here. Attach before and after
@@ -75,3 +94,4 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [zipped]: https://github.com/whatyouhide/iterm2-gotham/archive/master.zip
 [vim-gotham]: https://github.com/whatyouhide/vim-gotham
 [iterm2]: http://iterm2.com/
+[xresources-arch-wiki]: https://wiki.archlinux.org/index.php/Xresources
