@@ -82,6 +82,14 @@ If Termite is running, do <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> to
 reload the config file.
 
 
+### Terminator
+
+Make a backup of any existing session layouts and other options you may have
+and copy [terminator/gotham](terminator/gotham) to `~/.config/terminator/config`
+or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
+
+Restart terminator to load the Gotham colorscheme.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
