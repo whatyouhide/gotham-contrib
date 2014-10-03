@@ -88,9 +88,7 @@ Make a backup of any existing session layouts and other options you may have
 and copy [terminator/gotham](terminator/gotham) to `~/.config/terminator/config`
 or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
 
-Restart terminator to load the gotham colors.
-
-![terminator-screenshot][terminator-screenshot]
+Restart terminator to load the Gotham colorscheme.
 
 ## Contributing
 
@@ -114,7 +112,6 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 
 [logo]: http://i.imgur.com/FDLEzHC.png "Logo"
 [screenshot]: http://i.imgur.com/gaGhjqh.png "An iTerm-only screenshot"
-[terminator-screenshot]: http://i.imgur.com/p5y5WJZ.png "A Terminator and vim screenshot"
 [license-file]: LICENSE.txt
 [zipped]: https://github.com/whatyouhide/iterm2-gotham/archive/master.zip
 [vim-gotham]: https://github.com/whatyouhide/vim-gotham
