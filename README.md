@@ -12,8 +12,11 @@ available in the vim-gotham repository.
 
 If you use terminal vim, check if your terminal emulator is listed in one of the
 following ones. If it is, follow the instructions to install the colorscheme for
-the terminal emulator; if it's not there, it's not supported. You're more than
-welcome to add support for it and send me a Pull Request!
+the terminal emulator; if it's not there, you can use the **256 colors version**
+of the colorscheme but it doesn't look as polished as the regular one.
+Instructions are available at the [vim-gotham][vim-gotham] repository.
+
+You're more than welcome to add support for more platforms. Send me a PR!
 
 ### iTerm 2
 
