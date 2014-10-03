@@ -47,6 +47,7 @@ page](https://wiki.archlinux.org/index.php/Xresources)
 
 Make a backup of any existing session layouts and other options you may have
 and copy [terminator/gotham](terminator/gotham) to `~/.config/terminator/config`
+or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
 
 Restart terminator to load the gotham colors.
 
