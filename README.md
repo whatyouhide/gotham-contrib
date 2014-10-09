@@ -81,7 +81,6 @@ cat termite/gotham >> ~/.config/termite/config
 If Termite is running, do <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> to
 reload the config file.
 
-
 ### Terminator
 
 Make a backup of any existing session layouts and other options you may have
@@ -89,6 +88,13 @@ and copy [terminator/gotham](terminator/gotham) to `~/.config/terminator/config`
 or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
 
 Restart terminator to load the Gotham colorscheme.
+
+### Emacs
+
+An Emacs port has been made! The theme with all the necessary installation
+instructions are available on the Emacs [gotham-theme][emacs-version]
+repository.
+
 
 ## Contributing
 
@@ -117,3 +123,4 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [vim-gotham]: https://github.com/whatyouhide/vim-gotham
 [iterm2]: http://iterm2.com/
 [xresources-arch-wiki]: https://wiki.archlinux.org/index.php/Xresources
+[emacs-version]: https://github.com/wasamasa/gotham-theme
