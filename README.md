@@ -89,47 +89,46 @@ or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
 
 Restart terminator to load the Gotham colorscheme.
 
+### PhpStorm/PyCharm
+
+Download [intellij/Gotham.icls](intellij/Gotham.icls) and then follow the
+instructions for your OS.
+
+##### OSX
+
+Navigate to the location where you downloaded the file above and copy it
+(<kbd>⌘</kbd>+<kbd>c</kbd>). Then press <kbd>⇧</kbd>+<kbd>⌘</kbd>+<kbd>g</kbd>
+and go to `~/Library/Preferences/WebIde80/colors/` or
+`~/Library/Preferences/PyCharm30/colors/`.
+
+Paste (<kbd>⌘</kbd>+<kbd>v</kbd>) and restart your IDE. Then navigate to
+`Settings > Editor > Colors & Fonts` and select the Gotham colorscheme.
+
+##### Windows
+
+On Windows Explorer, select the file you downloaded and copy it to the
+clipboard. Navigate to the colors folder, located in:
+`C:/Users/USERNAME/.WebIde80/config/colors` or
+`C:/Users/USERNAME/.PyCharm30/config/colors`.
+
+Paste the `.icls` file in and restart your IDE. Then navigate to `File >
+Settings > Editor > Colors & Fonts` and select the Gotham colorscheme.
+
+##### Linux
+
+On Linux, the color files are located in `~/.WebIde80/config/colors/` or
+`~/.PyCharm30/config/colors/`.
+
+Move the file you downloaded in the appropriate directory and restart your IDE,
+then (in the IDE) navigate to `File > Settings > Editor > Colors & Fonts` and
+select the Gotham colorscheme.
+
 ### Emacs
 
 An Emacs port has been made! The theme with all the necessary installation
 instructions are available on the Emacs [gotham-theme][emacs-version]
 repository.
 
-### PhpStorm\PyCharm
-Installing theme
-First of all download [intellij/Gotham.icls](intellij/Gotham.icls) 
-then find your os section
-
-OSX
-On Finder, navigate to the location where you downloaded the XML and copy it.
-Then press shift+command+g and go to:
-```
-~/Library/Preferences/WebIde80/colors/
-or
-~/Library/Preferences/PyCharm30/colors/
-```
-Paste the .icls file in and restart your IDE. Then navigate to Settings > Editor > Colors & Fonts and select the color scheme you just added.
-
-Windows
-On Windows Explorer, select the XML file just downloaded and copy it.
-Then navigate to the colors folder, located in: 
-```
-C:/Users/USERNAME/.WebIde80/config/colors
-or
-C:/Users/USERNAME/.PyCharm30/config/colors
-```
-Paste the .icls file in and restart your IDE.
-Then navigate to File > Settings > Editor > Colors & Fonts and select the color scheme you just added.
-
-Linux
-On Linux, the color files are located in:
-```
-~/.WebIde80/config/colors/
-or 
-~/.PyCharm30/config/colors/
-```
-After you put your .icls files, restart your IDE. 
-Then navigate to File > Settings > Editor > Colors & Fonts and select the color scheme you just added.
 
 
 ## Contributing
