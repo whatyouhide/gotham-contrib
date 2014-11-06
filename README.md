@@ -129,6 +129,11 @@ An Emacs port has been made! The theme with all the necessary installation
 instructions are available on the Emacs [gotham-theme][emacs-version]
 repository.
 
+### Google Chrome theme
+
+The Gotham colorscheme has been ported to a Chrome theme, which is available [on
+the Chrome Web Store][chrome-theme].
+
 
 
 ## Contributing
@@ -159,3 +164,4 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [iterm2]: http://iterm2.com/
 [xresources-arch-wiki]: https://wiki.archlinux.org/index.php/Xresources
 [emacs-version]: https://github.com/wasamasa/gotham-theme
+[chrome-theme]: https://chrome.google.com/webstore/detail/gotham/gnlfcflpgndokoemddgnhampfeaahmhc?authuser=1
