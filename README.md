@@ -136,7 +136,7 @@ the Chrome Web Store][chrome-theme].
 
 ### Xcode theme
 
-Copy file [xcode/Gotham.dvtcolortheme)](xcode/Gotham.dvtcolortheme) into your
+Copy file [xcode/Gotham.dvtcolortheme](xcode/Gotham.dvtcolortheme) into your
 `~/Library/Developer/Xcode/UserData/FontAndColorThemes/`.
 
 Open Xcode, then navigate to `Xcode > Preferences > Fonts & Colors` and select the Gotham theme.
