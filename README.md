@@ -134,7 +134,12 @@ repository.
 The Gotham colorscheme has been ported to a Chrome theme, which is available [on
 the Chrome Web Store][chrome-theme].
 
+### Xcode theme
 
+Copy file [xcode/Gotham.dvtcolortheme)](xcode/Gotham.dvtcolortheme) into your
+`~/Library/Developer/Xcode/UserData/FontAndColorThemes/`.
+
+Open Xcode, then navigate to `Xcode > Preferences > Fonts & Colors` and select the Gotham theme.
 
 ## Contributing
 
