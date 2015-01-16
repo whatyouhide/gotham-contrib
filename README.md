@@ -123,6 +123,11 @@ Move the file you downloaded in the appropriate directory and restart your IDE,
 then (in the IDE) navigate to `File > Settings > Editor > Colors & Fonts` and
 select the Gotham colorscheme.
 
+### Mintty
+
+Download [mintty/.minttyrc](mintty/.minttyrc) and place the contents into your
+.minttyrc file.
+
 ### Emacs
 
 An Emacs port has been made! The theme with all the necessary installation
