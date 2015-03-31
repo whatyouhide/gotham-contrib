@@ -1,0 +1,95 @@
+Gotham Colorscheme for Gnome Terminal
+========================================
+
+Scripts for setting the [Gotham
+colorscheme](https://github.com/whatyouhide/vim-gotham) with Gnome Terminal. 
+
+Colors
+------
+
+The Gotham colorscheme has been created by 
+[Andrea Leopardi](https://github.com/whatyouhide).
+
+Installation and usage
+----------------------
+
+To be able to uninstall, we highly recommend that you create a new Gnome
+Terminal profile, using the menus in Gnome Terminal.
+
+You need the `dconf` command (if you run a recent Gnome version). With Ubuntu,
+this can be installed by running
+
+    $ sudo apt-get install dconf-cli
+
+Then you can run the installation script:
+
+    $ ./install.sh
+
+And just follow the instructions.
+
+You can also run the `set_gotham.sh` script to directly set the gotham theme to
+the actived gnome-terminal profile.
+
+Uninstall
+---------
+
+Change to another profile in Gnome Terminal, then remove the Gotham profile
+by running:
+
+### Gnome 3.6 or lower
+
+    $ rm -r ~/.gconf/apps/gnome-terminal/profiles/Gotham/
+
+### Gnome 3.8 or higher
+
+Be sure to have the dconf-cli package installed and do:
+
+    $ dconf reset -f /org/gnome/terminal/legacy/profiles:/PROFILE_ID"
+
+Replace PROFILE_ID by your profile ID (you can get it in your profile
+configuration in gnome-terminal).
+
+Themes
+------
+
+Each theme has is own folder in the `colors` dir. It contains 5 files:
+
+  * bd_color: bold color
+  * bg_color: background color
+  * fg_color: foreground color
+  * palette_dconf: palette for dconf (for gnome-terminal 3.8 or higher). Each
+    color is surrounded of simple quotes, and colors are comma separated.
+  * palette_gconf: palette for gconf (for gnome-terminal 3.6 or lower). Colors
+    are separated by colons.
+
+No additional configuration is needed to add a theme, the installation script
+just list at launch the children folders in the `colors` dir.
+
+FAQ
+===
+
+Conflicting background colors in VIM
+------------------------------------
+
+Use the 16 colors terminal option to get VIM to look like GVIM with solarized
+colors.
+
+    set t_Co=16
+
+Credits
+---
+
+The code to change gnome terminal colorschemes is taken from the [Gnome
+Terminal Colors Solarized repository](
+https://github.com/sigurdga/gnome-terminal-colors-solarized). Many thanks to
+the contributors!
+
+Gnome Terminal Colors Solarized Contributors
+------------
+
+* Sigurd Gartmann <sigurdga@sigurdga.no>
+* Anthony Ruhier <anthony.ruhier@gmail.com>
+* Paul Thomson <captbunzo@gmail.com>
+* Techlive Zheng <techlivezheng@gmail.com>
+* Daniel Graña <dangra@gmail.com>
+
