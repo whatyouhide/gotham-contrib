@@ -146,6 +146,11 @@ Copy file [xcode/Gotham.dvtcolortheme](xcode/Gotham.dvtcolortheme) into your
 
 Open Xcode, then navigate to `Xcode > Preferences > Fonts & Colors` and select the Gotham theme.
 
+### Pentadactyl
+
+The colorscheme along with the installation instructions are available
+on the [gotham.penta][pentadactyl-version] repository.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
@@ -175,3 +180,4 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [xresources-arch-wiki]: https://wiki.archlinux.org/index.php/Xresources
 [emacs-version]: https://github.com/wasamasa/gotham-theme
 [chrome-theme]: https://chrome.google.com/webstore/detail/gotham/gnlfcflpgndokoemddgnhampfeaahmhc?authuser=1
+[pentadactyl-version]: https://github.com/aminb/gotham.penta
