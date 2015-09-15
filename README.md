@@ -146,6 +146,14 @@ Copy file [xcode/Gotham.dvtcolortheme](xcode/Gotham.dvtcolortheme) into your
 
 Open Xcode, then navigate to `Xcode > Preferences > Fonts & Colors` and select the Gotham theme.
 
+### Sublime Text theme
+
+Go to `Preferences > Browse Packages` in the menu and create a
+`Colorsublime-Themes` directory if it doesn't exist yet. Copy
+[sublime-text/Gotham.tmTheme](sublime-text/Gotham.tmTheme) there.
+
+You will find the Gotham theme in `Preferences > Color Scheme > Colorsublime-Themes`.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
