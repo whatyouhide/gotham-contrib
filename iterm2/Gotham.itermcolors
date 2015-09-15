@@ -33,13 +33,13 @@
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>0.13216151297092438</real>
+		<real>0.76470588235294112</real>
 		<key>Color Space</key>
 		<string>Calibrated</string>
 		<key>Green Component</key>
-		<real>0.091466054320335388</real>
+		<real>0.78431372549019607</real>
 		<key>Red Component</key>
-		<real>0.037292905151844025</real>
+		<real>0.53725490196078429</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
