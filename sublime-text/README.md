@@ -1,8 +1,8 @@
 Gotham Colorscheme for Sublime Text
 ======================================
 
-Color Scheme file based on [Gotham
-colorscheme](https://github.com/whatyouhide/vim-gotham) for Sublime Text. 
+Color Scheme file for Sublime Text based on [Gotham
+colorscheme](https://github.com/whatyouhide/vim-gotham). 
 
 Colors
 ------
