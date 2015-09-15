@@ -162,11 +162,15 @@ help even by just opening an issue.
 
 When you make a PR with support for a new platform (terminal emulator, editor,
 whatever) attach a screenshot of the colorscheme in the new platform so it's
-easier for me to merge right away!
+easier for me to merge right away! Also, make sure to add a section in this
+repository's README that explains how to install the theme on the new platform.
 
 **Note** if you want to tweak the colors and open a PR, make sure to open in
 **in [vim's repository][vim-gotham]** and not here. Attach before and after
 screenshots!
+
+You can see a list of contributors [here][contributors]. Thanks to every one of
+them!
 
 
 ## License
@@ -177,6 +181,7 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [logo]: http://i.imgur.com/FDLEzHC.png "Logo"
 [screenshot]: http://i.imgur.com/gaGhjqh.png "An iTerm-only screenshot"
 [license-file]: LICENSE.txt
+[contributors]: https://github.com/whatyouhide/gotham-contrib/graphs/contributors
 [zipped]: https://github.com/whatyouhide/iterm2-gotham/archive/master.zip
 [vim-gotham]: https://github.com/whatyouhide/vim-gotham
 [iterm2]: http://iterm2.com/
