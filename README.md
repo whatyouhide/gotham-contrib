@@ -154,6 +154,24 @@ Go to `Preferences > Browse Packages` in the menu and create a
 
 You will find the Gotham theme in `Preferences > Color Scheme > Colorsublime-Themes`.
 
+### Shell
+Download and source on your shell rc file.
+
+    curl --create-dirs -o $HOME/.config/gotham/gotham.sh https://github.com/whatyouhide/gotham-contrib/raw/master/shell/gotham.sh
+
+**Bash/ZSH**
+```
+# Gotham Shell
+GOTHAM_SHELL="$HOME/.config/gotham/gotham.sh"
+[[ -s $GOTHAM_SHELL ]] && source $GOTHAM_SHELL
+```
+**Fish**
+```
+# Gotham Shell
+eval sh $HOME/.config/gotham/gotham.sh
+```
+See [shell/README.md](shell/README.md) for more information.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
