@@ -172,6 +172,10 @@ eval sh $HOME/.config/gotham/gotham.sh
 ```
 See [shell/README.md](shell/README.md) for more information.
 
+### Jupyter notebook
+
+Gotham color scheme for Jupyter notebook is available with installation instructions in [gotham-jupyter][jupyter-theme] repository.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
@@ -206,3 +210,4 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [xresources-arch-wiki]: https://wiki.archlinux.org/index.php/Xresources
 [emacs-version]: https://github.com/wasamasa/gotham-theme
 [chrome-theme]: https://chrome.google.com/webstore/detail/gotham/gnlfcflpgndokoemddgnhampfeaahmhc?authuser=1
+[jupyter-theme]: https://github.com/lepisma/gotham-jupyter
