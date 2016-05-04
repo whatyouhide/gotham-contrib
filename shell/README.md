@@ -4,7 +4,7 @@
 ![Gotham shell](preview.png)
 
 ## Installation
-    curl --create-dirs -o $HOME/.config/gotham/gotham.sh https://github.com/whatyouhide/gotham-contrib/raw/master/shell/gotham.sh
+    curl --create-dirs -o $HOME/.config/gotham/gotham.sh https://raw.githubusercontent.com/whatyouhide/gotham-contrib/master/shell/gotham.sh
 
 ### Bash/ZSH
 In `~/.bashrc` or `~/.zshrc` place the following lines:
