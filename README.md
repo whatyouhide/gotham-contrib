@@ -176,6 +176,11 @@ See [shell/README.md](shell/README.md) for more information.
 
 Gotham color scheme for Jupyter notebook is available with installation instructions in [gotham-jupyter][jupyter-theme] repository.
 
+### st
+
+Go to your local repository of the [st][st], merge your own `config.h` with the
+values in `st/config.h`. Run `make` and `[sudo] make install`.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
@@ -211,3 +216,4 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [emacs-version]: https://github.com/wasamasa/gotham-theme
 [chrome-theme]: https://chrome.google.com/webstore/detail/gotham/gnlfcflpgndokoemddgnhampfeaahmhc?authuser=1
 [jupyter-theme]: https://github.com/lepisma/gotham-jupyter
+[st]: http://st.suckless.org/
