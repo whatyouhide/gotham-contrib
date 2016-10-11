@@ -181,6 +181,11 @@ Gotham color scheme for Jupyter notebook is available with installation instruct
 Go to your local repository of the [st][st], merge your own `config.h` with the
 values in `st/config.h`. Run `make` and `[sudo] make install`.
 
+### Visual Studio Code
+
+Gotham theme is now available on the [VSCode Marketplace](vscode-theme-marketplace).
+You can find more information in [vscode-theme-gotham][vscode-theme-repo] repository.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
@@ -217,3 +222,5 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [chrome-theme]: https://chrome.google.com/webstore/detail/gotham/gnlfcflpgndokoemddgnhampfeaahmhc?authuser=1
 [jupyter-theme]: https://github.com/lepisma/gotham-jupyter
 [st]: http://st.suckless.org/
+[vscode-theme-marketplace]: https://marketplace.visualstudio.com/items?itemName=alireza94.theme-gotham
+[vscode-theme-repo]: https://github.com/alireza-ahmadi/vscode-theme-gotham
