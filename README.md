@@ -183,7 +183,7 @@ values in `st/config.h`. Run `make` and `[sudo] make install`.
 
 ### Visual Studio Code
 
-Gotham theme is now available on the [VSCode Marketplace](vscode-theme-marketplace).
+Gotham theme is now available on the [VSCode Marketplace][vscode-theme-marketplace].
 You can find more information in the [vscode-theme-gotham][vscode-theme-repo] repository.
 
 ## Contributing
