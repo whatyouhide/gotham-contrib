@@ -186,6 +186,15 @@ values in `st/config.h`. Run `make` and `[sudo] make install`.
 Gotham theme is now available on the [VSCode Marketplace][vscode-theme-marketplace].
 You can find more information in the [vscode-theme-gotham][vscode-theme-repo] repository.
 
+### Atom
+
+A Gotham-inspired syntax theme, with special features, is available for Atom: [atom-ubik-syntax](atom-ubik-syntax).
+__Installation__:`apm install ubik-syntax`
+
+### Spyder
+
+A Gotham-inspired syntax theme is available for Spyder: [spyder-ubik-syntax](spyder-ubik-syntax)
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
@@ -224,3 +233,5 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [st]: http://st.suckless.org/
 [vscode-theme-marketplace]: https://marketplace.visualstudio.com/items?itemName=alireza94.theme-gotham
 [vscode-theme-repo]: https://github.com/alireza-ahmadi/vscode-theme-gotham
+[atom-ubik-syntax]: https://github.com/mr-ubik/atom-ubik-syntax
+[spyder-ubik-syntax]: https://github.com/mr-ubik/spyder-ubik-syntax
