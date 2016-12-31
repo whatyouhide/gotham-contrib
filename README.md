@@ -189,7 +189,8 @@ You can find more information in the [vscode-theme-gotham][vscode-theme-repo] re
 ### Atom
 
 A Gotham-inspired syntax theme, with special features, is available for Atom: [atom-ubik-syntax](atom-ubik-syntax).
-__Installation__:`apm install ubik-syntax`
+
+**Installation:** `apm install ubik-syntax`
 
 ### Spyder
 
