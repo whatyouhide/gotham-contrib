@@ -89,6 +89,14 @@ or `$XDG_CONFIG_HOME/terminator/config` if you're running OS X.
 
 Restart terminator to load the Gotham colorscheme.
 
+### Alacritty
+
+Copy the contents of [alacritty/gotham.yml](alacritty/gotham.yml) into your
+`$XDG_CONFIG_HOME/alacritty.yml` or `$HOME/.alacritty.yml` after any
+pre-existing `colors:` mapping. After saving, it should change automatically.
+
+For more information, see the [Alacritty README][alacritty-configuration].
+
 ### PhpStorm/PyCharm
 
 Download [intellij/Gotham.icls](intellij/Gotham.icls) and then follow the
@@ -236,3 +244,4 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [vscode-theme-repo]: https://github.com/alireza-ahmadi/vscode-theme-gotham
 [atom-ubik-syntax]: https://github.com/mr-ubik/atom-ubik-syntax
 [spyder-ubik-syntax]: https://github.com/mr-ubik/spyder-ubik-syntax
+[alacritty-configuration]: https://github.com/jwilm/alacritty#configuration
