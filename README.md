@@ -196,13 +196,13 @@ You can find more information in the [vscode-theme-gotham][vscode-theme-repo] re
 
 ### Atom
 
-A Gotham-inspired syntax theme, with special features, is available for Atom: [atom-ubik-syntax](atom-ubik-syntax).
+A Gotham-inspired syntax theme, with special features, is available for Atom: [atom-ubik-syntax][atom-ubik-syntax].
 
 **Installation:** `apm install ubik-syntax`
 
 ### Spyder
 
-A Gotham-inspired syntax theme is available for Spyder: [spyder-ubik-syntax](spyder-ubik-syntax)
+A Gotham-inspired syntax theme is available for Spyder: [spyder-ubik-syntax][spyder-ubik-syntax]
 
 ## Contributing
 
