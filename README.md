@@ -254,3 +254,5 @@ MIT &copy; 2014-2015 Andrea Leopardi, see [the license][license-file].
 [atom-ubik-syntax]: https://github.com/mr-ubik/atom-ubik-syntax
 [spyder-ubik-syntax]: https://github.com/mr-ubik/spyder-ubik-syntax
 [alacritty-configuration]: https://github.com/jwilm/alacritty#configuration
+[gotham-theme-sublime]: https://github.com/hjohnson02/gotham-theme-sublime
+[arc-theme-gotham]: https://github.com/hjohnson02/arc-theme-gotham
