@@ -162,6 +162,11 @@ Go to `Preferences > Browse Packages` in the menu and create a
 
 You will find the Gotham theme in `Preferences > Color Scheme > Colorsublime-Themes`.
 
+### Sublime Text UI theme
+
+A Gotham sublime text 3 UI theme: [gotham-theme-sublime][gotham-theme-sublime].
+Includes the original Gotham sublime color scheme theme by whatyouhide.
+
 ### Shell
 Download and source on your shell rc file.
 
@@ -203,6 +208,10 @@ A Gotham-inspired syntax theme, with special features, is available for Atom: [a
 ### Spyder
 
 A Gotham-inspired syntax theme is available for Spyder: [spyder-ubik-syntax][spyder-ubik-syntax].
+
+### Arc Theme
+
+A flat theme with transparent elements based on Gotham scheme for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc. : [arc-theme-gotham][arc-theme-gotham].
 
 ## Contributing
 
