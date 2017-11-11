@@ -46,6 +46,14 @@ downloaded. If you want to set the colorscheme as the default one, click the
 **Note** this has been tested with OSX >= 10.9 only, but let me know if it works
 with previous versions too (just open an issue), thanks!
 
+### Konsole
+
+Copy the file [Gotham.colorscheme](konsole/Gotham.colorscheme) in the Konsole
+colorschemes folder (default `~/.kde/share/apps/konsole`).
+
+Now go into `Configuration > Modify current profile > Appearance` and the colorscheme
+Gotham should be in the list. The change of colorscheme is immediate.
+
 ### Xresources
 
 Copy the contents of [xresources/gotham](xresources/gotham) into your
