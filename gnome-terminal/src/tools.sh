@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-gnomeVersion="$(expr "$(gnome-terminal --version)" : '.* \(.*[.].*[.].*\)$')"
+gnomeVersion="$(expr "$(gnome-terminal --version)" : '# GNOME Terminal \([[:digit:]]*[.][[:digit:]]*[.][[:digit:]]* \)')"
 
 # newGnome=1 if the gnome-terminal version >= 3.8
 if [[ ("$(echo "$gnomeVersion" | cut -d"." -f1)" = "3" && \
