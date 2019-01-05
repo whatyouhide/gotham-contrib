@@ -1,0 +1,51 @@
+--[[
+    *******************************************************************************
+    *                               Gotham Theme                                  *
+    *                           v0.1.0 - 2019/01/04                               *
+    *******************************************************************************
+    
+    This theme mimicks the gotham color scheme for vim 
+        https://github.com/whatyouhide/vim-gotham
+    
+    Additional gotham themes for various software can be found at
+        https://github.com/whatyouhide/gotham-contrib
+    
+    Approximate colors can be viewed/tested in terminal via 
+        gotham-contrib/shell/colortest
+
+    *******************************************************************************
+ ]]
+
+Description = "port of vim-gotham theme"
+
+-- ("base0")
+Canvas	      = { Colour="#0c1014" }
+
+-- ("Cyan")
+Default	      = { Colour="#33859E" }
+PreProcessor  = { Colour="#33859E" }
+StringPreProc = { Colour="#33859E" }
+Number	      = { Colour="#33859E" }
+BlockComment  = { Colour="#33859E" }
+
+-- ("Orange")
+Interpolation = { Colour="#D26937" }
+Escape	      = { Colour="#D26937" }
+
+-- ("Blue")
+LineComment   = { Colour="#195465" }
+LineNum       = { Colour="#195465" }
+
+-- ("Green")
+String	      = { Colour="#26A98B" }
+
+-- ("Red")
+Operator      = { Colour="#C23127" } 
+
+
+Keywords = {
+  { Colour="#D26937" }, -- ("Orange")
+  { Colour="#33859E" }, -- ("Cyan")
+  { Colour="#33859E" }, -- ("Cyan")
+  { Colour="#C23127" }, -- ("Red")
+}
