@@ -221,6 +221,14 @@ A Gotham-inspired syntax theme is available for Spyder: [spyder-ubik-syntax][spy
 
 A flat theme with transparent elements based on Gotham scheme for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc. : [arc-theme-gotham][arc-theme-gotham].
 
+### Highlight
+
+A Gotham inspired theme for the syntax highlighting tool [highlight](https://gitlab.com/saalen/highlight) by Andre Simon
+
+**Installation:** The `gotham.theme` file can be installed to `~/.hightlight/themes` or to your system highlight installation such as `/usr/share/highlight/themes/`
+
+See [highlight/README.md](highlight/README.md) for additional info
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
