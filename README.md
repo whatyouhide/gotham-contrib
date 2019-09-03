@@ -105,10 +105,28 @@ pre-existing `colors:` mapping. After saving, it should change automatically.
 
 For more information, see the [Alacritty README][alacritty-configuration].
 
-### PhpStorm/PyCharm
+### Jetbrains IDEs (IntelliJ/Pycharm/WebStorm/PhpStorm/Rider/Clion/Rubymine//Goland)
 
 Download [intellij/Gotham.icls](intellij/Gotham.icls) and then follow the
 instructions for your OS.
+
+Open IDE then navigate to: 
+
+(Windows & Linux) `"File > Settings > Editor > Colors Scheme"` 
+
+(OSX) `"PyCharm > Preferences > Editor > Color Scheme"`
+
+Open dropdown by clicking `⚙▾` button which should be next to scheme 
+selection window `(Scheme: [...] ⚙▾)`.
+
+Choose `Import Scheme`.
+
+Find and load downloaded `Gotham.icls` file.
+
+Colorscheme should change immediately and `Gotham` should appear on list of available schemas.  
+(In case of external schemas, `⚙▾` dropdown contains `delete` option for schema removal)
+
+### Jetbrains IDEs - manual installation:
 
 ##### OSX
 
