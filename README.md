@@ -247,6 +247,12 @@ A Gotham inspired theme for the syntax highlighting tool [highlight](https://git
 
 See [highlight/README.md](highlight/README.md) for additional info
 
+### xfce4-terminal
+
+Copy the file [xfce4-terminal/gotham.theme](xfce4-terminal/gotham.theme) to `/usr/share/xfce4/terminal/colorschemes/`
+
+Go into `Preferences > Colors > Presets` and the colorscheme Gotham should be in the list. The change of colorscheme is immediate.
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
