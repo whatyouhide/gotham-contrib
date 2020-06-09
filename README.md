@@ -105,6 +105,13 @@ pre-existing `colors:` mapping. After saving, it should change automatically.
 
 For more information, see the [Alacritty README][alacritty-configuration].
 
+### Windows Terminal
+
+Copy the contents of [windows-terminal/settings.json] into the `schemes` array of your settings.json file.
+Add `"colorScheme": "Gotham"` to the desired profile in the `profiles` array of your settings.json file.
+
+For more information, see the [Windows article](https://docs.microsoft.com/en-gb/windows/terminal/customize-settings/color-schemes)
+
 ### Jetbrains IDEs (IntelliJ/Pycharm/WebStorm/PhpStorm/Rider/Clion/Rubymine//Goland)
 
 Download [intellij/Gotham.icls](intellij/Gotham.icls) and then follow the
