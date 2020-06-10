@@ -1,0 +1,27 @@
+{
+    "schemes": [
+        {
+            "name": "Gotham",
+            "background": "#0a0f14",
+            "foreground": "#cccccc",
+            "cursorColor": "#98d1ce",
+            "black": "#505050",
+            "blue": "#13789c",
+            "brightBlack": "#62807f",
+            "brightBlue": "#72b3ca",
+            "brightCyan": "#599caa",
+            "brightGreen": "#abe4bb",
+            "brightPurple": "#b8bcdf",
+            "brightRed": "#d26939",
+            "brightWhite": "#d3ebe9",
+            "brightYellow": "#f6d8a1",
+            "cyan": "#33859d",
+            "green": "#26a98b",
+            "purple": "#888ba5",
+            "red": "#dc362c",
+            "white": "#98d1ce",
+            "yellow": "#edb54b",
+            "selectionBackground": "#ffffff"
+          }
+    ]
+}
