@@ -260,6 +260,13 @@ Copy the file [xfce4-terminal/gotham.theme](xfce4-terminal/gotham.theme) to `/us
 
 Go into `Preferences > Colors > Presets` and the colorscheme Gotham should be in the list. The change of colorscheme is immediate.
 
+### kitty
+
+Copy the file [kitty/Gotham.conf](kitty/Gotham.conf) to `~/.config/kitty/`
+
+Add this line to your `kitty.conf` configuration file: `include ~/.config/kitty/Gotham.conf`
+
+
 ## Contributing
 
 I'm more than happy to accept Pull Requests of any kind: bug fixes, support for
