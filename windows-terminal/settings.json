@@ -3,7 +3,7 @@
         {
             "name": "Gotham",
             "background": "#0a0f14",
-            "foreground": "#cccccc",
+            "foreground": "#98d1ce",
             "cursorColor": "#98d1ce",
             "black": "#505050",
             "blue": "#13789c",
@@ -21,7 +21,7 @@
             "red": "#dc362c",
             "white": "#98d1ce",
             "yellow": "#edb54b",
-            "selectionBackground": "#ffffff"
+            "selectionBackground": "#0c3040"
           }
     ]
 }
